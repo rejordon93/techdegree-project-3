@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'STIX Two Math', serif;
+    background: #fffdfc;
+    color: #000;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.hr1 {
+    height: 0px;
+    border: none;
+    border-top: 3px solid rgb(25, 34, 53);
+    margin-top: 2rem;
+}
+
+.hr2 {
+    border: none;
+    border: 1px solid rgb(25, 34, 53);
+}
+
+#logo {
+    background: rgb(25, 34, 53);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1.66rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.summary {
+    text-align: center;
+}
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+/* Form -------------------- */
+
+label {
+    display: inherit;
+    margin-bottom: 0.5em;
+}
+
+.check-box {
+    display: inline-block;
+}
+
+input[type=checkbox] {
+    display: inherit;
+    width: auto;
+    margin: 1rem;
+}
+
+input[type=radio] {
+    display: inherit;
+    width: auto;
+    margin: 1rem;
+}
+
+input,
+select {
+    background: rgb(233, 232, 232);
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 18px;
+    outline: 0;
+    border: none;
+    padding: 15px;
+    border-radius: .3em;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.75rem;
+    margin: .6rem;
+    padding-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 123px;
+    background: rgb(233, 232, 232);
+    border: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: lightblue;
+}
+
+
+#zip {
+    width: 50%;
+}
+
+::placeholder {
+
+    font-size: 1rem;
+    float: right;
+}
+
+
+.hint {
+    font-weight: 300;
+    color: #666;
+    font-size: 16px;
+}
+
+.btn {
+    font-size: 0.875em;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff;
+    padding: 1rem 1rem;
+    width: 100%;
+    margin: 1em 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.05);
+    background-color: #52bab3;
+}
+
+.btn:hover {
+    opacity: .75;
+}
+
+.radio-btos {
+    display: inline-block;
+}
+
+
+
+
+@media (min-width: 768px) {
+    #log {
+        max-width: 100%;
+    }
+
+    .address {
+        display: inherit;
+        width: 81%;
+        margin: 1rem auto 1rem 1rem;
+    }
+
+    #news-letter {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #news-letter label {
+        width: 15%;
+        margin: .2rem;
+    }
+
+    textarea {
+        width: 50%;
+    }
+
+    #zip {
+        width: 25%;
+    }
+}

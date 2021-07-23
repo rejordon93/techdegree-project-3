@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=STIX+Two+Math&display=swap" rel="stylesheet">
+    <title>THE CODE REVIEW</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <div class="container">
+                <span id="logo-text">THE CODE REVIEW</span>
+            </div>
+     </div>
+    </header>
+
+    <div class="container">
+        <div class="summary">
+         <h1>Signup for our newsletter</h1>
+         <p>Get the latest news on how your code is doing right in your index</p> 
+         
+         <hr class="hr1"> 
+         <hr class="hr2">
+    </div>
+    </div>
+
+    <form>
+        <fieldset id="news-letter">
+            <legend>Contact Information</legend>
+            <label for="name">Full Name </label>
+            <input class="address" type="text" id="name" name="full-name" placeholder="Required"><br>
+            <label for="email">Email Address </label>
+            <input class="address" type="email" id="email" name="email" placeholder="Required">
+            <label for="phone">Phone Number</label>
+            <input class="address" type="tel" id="phone" name="user-phone">
+            <label for="address1">Street Address </label>
+            <input class="address" type="text" id="address1" name="user-city">
+            <label for="addree2">City</label>
+            <input class="address" type="text" id="addree2" name="user-address2">
+            <label for="addree3">State</label>
+                <select class="address" id="addree3" name="state">
+                    <option value="" selected="selected">Select a State</option>
+                </select>
+
+
+            <label for="zip">Zip Code</label>
+            <input class="address" type="text" id="zip" name="user-zip">
+        </fieldset>
+     <hr class="hr1">
+
+    <fieldset>
+        <legend>Newsletter</legend>
+        <p>Select the nresletters you would like to reccive</p>
+        <div class="radio-btos">
+          <input type="checkbox" id="contactChoice1"
+           name="contact" value="email" checked>
+          <label for="contactChoice1">HTML News</label><br>
+    
+          <input type="checkbox" id="contactChoice2"
+           name="contact" value="phone">
+          <label for="contactChoice2">CSS News</label><br>
+    
+          <input type="checkbox" id="contactChoice3"
+           name="contact" value="mail">
+          <label for="contactChoice3">Javascript News</label>
+        </div> 
+        <p>Newsletter format</p>
+      <div class="check-box">
+        <input type="radio"
+        name="contact" id="contactChoice4" value="mail">
+        <label for="contactChoice4">HTML</label><br>
+        <input type="radio" id="contactChoice5" name="contact" value="mail">
+        <label for="contactChoice5">Plain text</label>
+      </div>
+       
+       <h4>Other topics you'd like to hear about</h4>
+       <textarea name="textarea"></textarea>
+
+      
+          <button class="btn" type="submit">sign Up</button>
+    
+    </fieldset>
+ </form>
+
+    <footer>
+        <h4>Copyight The code Review</h4>
+    </footer>
+</body>
+</html>
